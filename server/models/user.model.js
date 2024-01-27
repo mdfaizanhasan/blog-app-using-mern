@@ -18,7 +18,7 @@ const userSchema = new mongoose.Schema(
         },
         profilePicture: {
             type: String,
-            default: 'https://i.pinimg.com/originals/47/31/03/473103',
+            default: 'https://tse3.explicit.bing.net/th?id=OIP.gDBdAA5pacZzSnpFUHEKPgHaGA&pid=Api&P=0&h=220',
         },
     }, { timestamps: true }
 );
