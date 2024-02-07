@@ -20,6 +20,10 @@ const userSchema = new mongoose.Schema(
             type: String,
             default: 'https://tse3.explicit.bing.net/th?id=OIP.gDBdAA5pacZzSnpFUHEKPgHaGA&pid=Api&P=0&h=220',
         },
+        isAdmin: {
+            type: Boolean,
+            default: false,
+        },
     }, { timestamps: true }
 );
 
